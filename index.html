@@ -17,6 +17,8 @@
 <style>
 body{margin:0}
 a{color:#000000}a:hover{color:#616161}
+.navm{display:none} .navm summary::-webkit-details-marker{display:none}
+@media (max-width: 760px){.mp0{padding:22px 20px 22px!important}.mp1{padding:56px 20px 56px!important}.mp2{padding:34px 20px 34px!important}.mp3{padding:48px 20px 48px!important}.mp4{padding:20px 20px 40px!important}.mc1{padding:32px 22px!important}.mc2{padding:28px 22px!important}.mc3{padding:24px 18px!important}.mhero{height:440px!important}.mpt{padding:56px 20px 0!important}.mhide{display:none!important}.navd{display:none!important}.navm{display:block!important}}
 
 </style>
 
@@ -26,16 +28,16 @@ a{color:#000000}a:hover{color:#616161}
 <div style="font-family: 'Montserrat', Avenir, sans-serif; color: #000000; background: #FFFFFF; font-size: 17px; line-height: 1.65">
 
 <!-- TOP BAR -->
-<div style="background: #000000; color: #FFFFFF; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-align: center; padding: 10px 24px">New book: <a href="#new-book" style="color: #FFFFFF; text-underline-offset: 4px">Junior Bites, Healthy Vibes – pre-order now</a> · Now booking private prep days in NYC</div>
+<div style="background: #000000; color: #FFFFFF; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-align: center; padding: 10px 24px">New book: <a href="#new-book" style="color: #FFFFFF; text-underline-offset: 4px">Junior Bites, Healthy Vibes – pre-order now</a><span class="mhide"> · Now booking private prep days in NYC</span></div>
 
 <!-- HEADER -->
 <header style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
+<div class="mp0" style="max-width: 1240px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
 <a href="#top" style="text-decoration: none; color: #000000; display: flex; flex-direction: column; align-items: center; line-height: 1">
 <span style="font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-size: 30px; letter-spacing: 0.06em">SVENJA OSTWALD</span>
 <span style="font-size: 10px; font-weight: 700; letter-spacing: 0.32em; margin-top: 6px">KITCHEN · NEW YORK</span>
 </a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px; font-weight: 700">
+<nav class="navd" aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 28px; font-size: 15px; font-weight: 700">
 <a href="#menu" style="color: #000000; text-decoration: none">Sample Menu</a>
 <a href="#offer" style="color: #000000; text-decoration: none">What You Get</a>
 <a href="#how" style="color: #000000; text-decoration: none">How It Works</a>
@@ -46,11 +48,25 @@ a{color:#000000}a:hover{color:#616161}
 <a href="https://svenjaostwald.com" target="_blank" rel="noopener" style="color: #000000; text-decoration: underline; text-underline-offset: 5px; display: inline-flex; align-items: center; gap: 4px">Free Recipes <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg></a>
 <a href="#book" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; background: #000000; color: #FFFFFF; text-decoration: none; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase">Book your prep day</a>
 </nav>
+<details class="navm" style="width: 100%">
+<summary style="list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 16px; border: 2px solid #000000; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">Menu</summary>
+<div style="padding-top: 12px">
+<a href="#menu" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">Sample Menu</a>
+<a href="#offer" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">What You Get</a>
+<a href="#how" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">How It Works</a>
+<a href="#family" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">Families</a>
+<a href="#pricing" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">Pricing</a>
+<a href="#about" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">Meet Svenja</a>
+<a href="#faq" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; text-decoration: none; font-size: 17px; font-weight: 700">FAQ</a>
+<a href="https://svenjaostwald.com" target="_blank" rel="noopener" style="display: block; padding: 12px 0; border-top: 1px solid #D4D1CB; color: #000000; font-size: 17px; font-weight: 700">Free Recipes ↗</a>
+<a href="#book" style="display: flex; justify-content: center; align-items: center; min-height: 48px; margin-top: 12px; background: #000000; color: #FFFFFF; text-decoration: none; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">Book your prep day</a>
+</div>
+</details>
 </div>
 </header>
 
 <!-- HERO -->
-<section id="top" style="max-width: 1240px; margin: 0 auto; padding: 72px 32px 88px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 56px; align-items: center">
+<section id="top" class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 72px 32px 88px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 56px; align-items: center">
 <div style="display: flex; flex-direction: column; gap: 26px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Private meal prep · New York City</p>
 <h1 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-weight: 500; font-size: clamp(44px, 5.4vw, 72px); line-height: 1.04">Healthy, home-cooked meals, prepared in <span style="font-style: italic">your own kitchen.</span></h1>
@@ -60,12 +76,12 @@ a{color:#000000}a:hover{color:#616161}
 <a href="#how" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border: 2px solid #000000; color: #000000; text-decoration: none; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">How it works</a>
 </div>
 </div>
-<img src="assets/hero-rooftop-jars.jpg" alt="Svenja Ostwald on a New York rooftop holding freshly prepared meals in glass jars" style="width: 100%; height: 640px; object-fit: cover; object-position: center 30%; display: block">
+<img src="assets/hero-rooftop-jars.jpg" alt="Svenja Ostwald on a New York rooftop holding freshly prepared meals in glass jars" class="mhero" style="width: 100%; height: 640px; object-fit: cover; object-position: center 30%; display: block">
 </section>
 
 <!-- PRESS BAND -->
 <section aria-label="Press" style="background: #000000; color: #FFFFFF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 34px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 48px">
+<div class="mp2" style="max-width: 1240px; margin: 0 auto; padding: 34px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 48px">
 <p style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-size: 24px; line-height: 1; white-space: nowrap">As featured in</p>
 <ul style="list-style: none; margin: 0; padding: 0; flex: 1 1 600px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 32px; font-size: 14px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase">
 <li style="display: flex; align-items: center; gap: 32px">Welt am Sonntag</li>
@@ -80,7 +96,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- TRUST BAR -->
 <section aria-label="Credentials" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 48px 32px 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px">
+<div class="mp3" style="max-width: 1240px; margin: 0 auto; padding: 48px 32px 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px">
 <div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 46px; line-height: 1">4×</span><span style="font-size: 14px; font-weight: 600">SPIEGEL bestselling author</span></div>
 <div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 46px; line-height: 1">5</span><span style="font-size: 14px; font-weight: 600">cookbooks published</span></div>
 <div style="display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 46px; line-height: 1">100k+</span><span style="font-size: 14px; font-weight: 600">copies sold in Europe</span></div>
@@ -90,7 +106,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- THE IDEA -->
-<section id="idea" style="max-width: 980px; margin: 0 auto; padding: 120px 32px; text-align: center; display: flex; flex-direction: column; gap: 26px; align-items: center">
+<section id="idea" class="mp1" style="max-width: 980px; margin: 0 auto; padding: 120px 32px; text-align: center; display: flex; flex-direction: column; gap: 26px; align-items: center">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">The Idea</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.12">Eating well shouldn’t take up your whole week.</h2>
 <p style="margin: 0; font-size: 20px; color: #3A3A3A; max-width: 760px">I come to your home, cook in your kitchen, and leave you with a fridge full of nourishing food for breakfast, lunch, dinner and in between. No delivery boxes, no reheated catering. Just real food, made fresh where you live.</p>
@@ -105,7 +121,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- WHAT YOU GET -->
 <section id="offer" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 44px">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 44px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">Four dishes, cooked in your home</h2>
 <p style="margin: 0; max-width: 380px; color: #3A3A3A">Every dish is portioned, labeled and ready to enjoy for the days ahead.</p>
@@ -144,7 +160,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- FOOD GALLERY -->
-<section aria-label="Food from Svenja’s kitchen" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px 0; display: flex; flex-direction: column; gap: 40px">
+<section aria-label="Food from Svenja’s kitchen" class="mpt" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px 0; display: flex; flex-direction: column; gap: 40px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">No added sugar. No shortcuts.</h2>
 <p style="margin: 0; max-width: 420px; color: #3A3A3A">Layered jars, slow-simmered soups and sweet treats without refined sugar: real food from my kitchen, now made in yours.</p>
@@ -158,7 +174,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- SAMPLE MENU -->
-<section id="menu" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px 0; display: flex; flex-direction: column; gap: 44px">
+<section id="menu" class="mpt" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px 0; display: flex; flex-direction: column; gap: 44px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
 <div style="display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Sample Menu</p>
@@ -199,7 +215,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- HOW I COOK -->
-<section style="max-width: 1240px; margin: 0 auto; padding: 120px 32px; display: flex; flex-direction: column; gap: 52px">
+<section class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px; display: flex; flex-direction: column; gap: 52px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 680px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">How I Cook</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">Healthy made easy</h2>
@@ -229,7 +245,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- HOW IT WORKS -->
 <section id="how" style="background: #000000; color: #FFFFFF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 56px">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 56px">
 <div style="display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">How It Works</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">From first conversation to full fridge</h2>
@@ -244,7 +260,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- FAMILY -->
-<section id="family" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 64px; align-items: center">
+<section id="family" class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 120px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 64px; align-items: center">
 <div style="display: flex; flex-direction: column; gap: 22px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">For the whole family</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">Cooking for one, two or the whole table</h2>
@@ -261,14 +277,14 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- PRICING -->
 <section id="pricing" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 56px">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: flex; flex-direction: column; gap: 56px">
 <div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Pricing</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">Clear prices, no surprises</h2>
 <p style="margin: 0; font-size: 18px; color: #3A3A3A">You pay for my time and expertise, and for your groceries at exactly what they cost. Here is what you get and where every dollar goes.</p>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 20px">
-<article style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
+<article  class="mc2" style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">1–2 people</p>
 <h3 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-size: 32px; font-weight: 500; line-height: 1.1">Solo &amp; Couple</h3>
 <p style="margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 60px; line-height: 1">$650</span><span style="font-size: 14px; color: #3A3A3A">per prep day, plus groceries at cost</span></p>
@@ -282,7 +298,7 @@ a{color:#000000}a:hover{color:#616161}
 <span><strong>Monthly plan:</strong> 4 prep days for $2,400 <span style="color: #3A3A3A">(you save $200)</span></span>
 </div>
 </article>
-<article style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
+<article  class="mc2" style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">3–4 people</p>
 <h3 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-size: 32px; font-weight: 500; line-height: 1.1">Family</h3>
 <p style="margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 60px; line-height: 1">$850</span><span style="font-size: 14px; color: #3A3A3A">per prep day, plus groceries at cost</span></p>
@@ -296,7 +312,7 @@ a{color:#000000}a:hover{color:#616161}
 <span><strong>Monthly plan:</strong> 4 prep days for $3,200 <span style="color: #3A3A3A">(you save $200)</span></span>
 </div>
 </article>
-<article style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
+<article  class="mc2" style="background: #FFFFFF; padding: 36px 32px; display: flex; flex-direction: column; gap: 16px">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase">5–6 people</p>
 <h3 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-size: 32px; font-weight: 500; line-height: 1.1">Big Family</h3>
 <p style="margin: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap"><span style="font-family: 'Crimson Pro', Palatino, serif; font-size: 60px; line-height: 1">$1,050</span><span style="font-size: 14px; color: #3A3A3A">per prep day, plus groceries at cost</span></p>
@@ -313,7 +329,7 @@ a{color:#000000}a:hover{color:#616161}
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 20px; align-items: stretch">
-<div style="background: #000000; color: #FFFFFF; padding: 40px 36px; display: flex; flex-direction: column; gap: 18px">
+<div  class="mc2" style="background: #000000; color: #FFFFFF; padding: 40px 36px; display: flex; flex-direction: column; gap: 18px">
 <h3 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-size: 36px; font-weight: 400; line-height: 1.1">Your four, your mix</h3>
 <p style="margin: 0; color: #DADADA">The four dishes don’t have to be one of each. Skip breakfast and get more dinners, or fill the week with lunches for the office. You choose, I plan.</p>
 <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
@@ -325,7 +341,7 @@ a{color:#000000}a:hover{color:#616161}
 <p style="margin: 0; font-size: 14px; color: #DADADA">Want more variety? Add extra dishes at a fixed price per dish.</p>
 </div>
 
-<div style="background: #FFFFFF; padding: 40px 36px; display: flex; flex-direction: column; gap: 22px">
+<div  class="mc2" style="background: #FFFFFF; padding: 40px 36px; display: flex; flex-direction: column; gap: 22px">
 <h3 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-size: 36px; font-weight: 500; line-height: 1.1">Calculate your prep day</h3>
 <div style="display: flex; flex-direction: column; gap: 10px">
 <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase">Household</span>
@@ -401,7 +417,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- GIFT -->
 <section id="gift" style="background: #000000; color: #FFFFFF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: center">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: center">
 <img src="assets/food-overnight-oats.jpg" alt="Jars of overnight oats seen from above" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block">
 <div style="display: flex; flex-direction: column; gap: 20px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Gift cards</p>
@@ -414,9 +430,9 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- MEET SVENJA -->
 <section id="about" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 0; align-items: stretch">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 0; align-items: stretch">
 <img src="assets/portrait-olive.jpg" alt="Portrait of Svenja Ostwald" style="width: 100%; height: 100%; min-height: 620px; object-fit: cover; object-position: center 20%; display: block">
-<div style="background: #FFFFFF; padding: 56px 48px; display: flex; flex-direction: column; gap: 22px; justify-content: center">
+<div  class="mc1" style="background: #FFFFFF; padding: 56px 48px; display: flex; flex-direction: column; gap: 22px; justify-content: center">
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 52px); line-height: 1.1">Hi, I’m Svenja</h2>
 <p style="margin: 0; font-size: 18px; color: #3A3A3A">I’m Svenja Ostwald, a four-times bestselling author, health coach and the creator of five cookbooks, with over 100,000 copies sold across Germany, Austria and Switzerland. Born in Germany and based in New York since 2015, I’ve spent years developing recipes that make healthy eating simple, satisfying and genuinely delicious.</p>
 <p style="margin: 0; font-size: 18px; font-weight: 700">Now I’m bringing that kitchen to you.</p>
@@ -432,7 +448,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- NEW BOOK -->
 <section id="new-book" aria-label="New book" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 64px; align-items: center">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 96px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 64px; align-items: center">
 <div style="display: flex; justify-content: center">
 <img src="cover-junior-bites.jpg" alt="Book cover of Junior Bites, Healthy Vibes by Svenja Ostwald" style="width: 100%; max-width: 380px; aspect-ratio: 3 / 4; object-fit: cover; display: block; box-shadow: 0 18px 40px rgba(0,0,0,.22)">
 </div>
@@ -455,7 +471,7 @@ a{color:#000000}a:hover{color:#616161}
 </section>
 
 <!-- BOOKS -->
-<section id="books" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px 56px; display: flex; flex-direction: column; gap: 44px">
+<section id="books" class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px 56px; display: flex; flex-direction: column; gap: 44px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
 <div style="display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">The Books</p>
@@ -506,7 +522,7 @@ a{color:#000000}a:hover{color:#616161}
 <section id="recipes" style="max-width: 1240px; margin: 0 auto; padding: 56px 32px 120px">
 <a href="https://svenjaostwald.com" target="_blank" rel="noopener" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); background: #000000; color: #FFFFFF; text-decoration: none">
 <img src="assets/food-pouring.jpg" alt="Hot water poured into a layered noodle jar" style="width: 100%; height: 100%; min-height: 380px; object-fit: cover; object-position: center 55%; display: block">
-<div style="padding: 56px 48px; display: flex; flex-direction: column; gap: 20px; justify-content: center">
+<div  class="mc1" style="padding: 56px 48px; display: flex; flex-direction: column; gap: 20px; justify-content: center">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Free on the blog</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.08">New recipes every week, free for you</h2>
 <p style="margin: 0; font-size: 18px; color: #DADADA">Weekly Meal Prep Monday plans, breakfasts, bowls, snacks and treats without added sugar. Cook along at home, then let me take over when life gets busy.</p>
@@ -518,7 +534,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- FAQ -->
 <section id="faq">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 64px; align-items: start">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 64px; align-items: start">
 <img src="assets/portrait-polka.jpg" alt="Svenja Ostwald in a polka-dot dress, laughing" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; display: block">
 <div style="display: flex; flex-direction: column; gap: 36px">
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.1">Good to know</h2>
@@ -541,7 +557,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- CONTACT -->
 <section id="book" style="background: #F6F5F3">
-<div style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: start">
+<div class="mp1" style="max-width: 1240px; margin: 0 auto; padding: 112px 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px; align-items: start">
 <div style="display: flex; flex-direction: column; gap: 20px">
 <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase">Book your consultation</p>
 <h2 style="margin: 0; font-family: 'Crimson Pro', Palatino, serif; font-weight: 500; font-size: clamp(40px, 4.8vw, 64px); line-height: 1.04">Ready for a <span style="font-style: italic">full fridge?</span></h2>
@@ -549,7 +565,7 @@ a{color:#000000}a:hover{color:#616161}
 <p style="margin: 0; font-size: 15px; color: #3A3A3A">Prefer email? Write to <a href="mailto:hello@svenjaostwald.com" style="font-weight: 700">hello@svenjaostwald.com</a></p>
 <img src="assets/portrait-white.jpg" alt="Svenja Ostwald laughing by a window" style="width: 100%; max-width: 440px; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 25%; display: block; margin-top: 12px">
 </div>
-<form id="contact-form" name="consultation" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" aria-label="Consultation request" style="background: #FFFFFF; padding: 40px; display: flex; flex-direction: column; gap: 18px">
+<form id="contact-form" name="consultation" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" aria-label="Consultation request"  class="mc3" style="background: #FFFFFF; padding: 40px; display: flex; flex-direction: column; gap: 18px">
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase">I’m interested in<select name="interest" style="min-height: 46px; border: 1px solid #BDBAB4; border-radius: 0; padding: 0 10px; font: inherit; font-size: 16px; text-transform: none; letter-spacing: 0; font-weight: 400; background: #FFFFFF"><option>A prep day for my household</option><option>A monthly plan</option><option>A gift card</option><option>Something else</option></select></label>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
 <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase">Name<input type="text" name="name" required style="min-height: 46px; border: 1px solid #BDBAB4; border-radius: 0; padding: 0 12px; font: inherit; font-size: 16px; text-transform: none; letter-spacing: 0; font-weight: 400"></label>
@@ -571,7 +587,7 @@ a{color:#000000}a:hover{color:#616161}
 
 <!-- FOOTER -->
 <footer style="background: #000000; color: #CFCFCF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 48px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; font-size: 14px">
+<div class="mp3" style="max-width: 1240px; margin: 0 auto; padding: 48px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; font-size: 14px">
 <div style="display: flex; flex-direction: column; line-height: 1; color: #FFFFFF">
 <span style="font-family: 'Crimson Pro', Palatino, serif; font-style: italic; font-size: 24px; letter-spacing: 0.06em">SVENJA OSTWALD</span>
 <span style="font-size: 9px; font-weight: 700; letter-spacing: 0.32em; margin-top: 6px">KITCHEN · NEW YORK</span>
@@ -582,7 +598,7 @@ a{color:#000000}a:hover{color:#616161}
 <a href="mailto:hello@svenjaostwald.com" style="color: #FFFFFF">hello@svenjaostwald.com</a>
 </div>
 </div>
-<div style="max-width: 1240px; margin: 0 auto; padding: 20px 32px 40px; border-top: 1px solid #333333; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 28px; font-size: 13px; color: #A8A8A8">
+<div class="mp4" style="max-width: 1240px; margin: 0 auto; padding: 20px 32px 40px; border-top: 1px solid #333333; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 28px; font-size: 13px; color: #A8A8A8">
 <span>Svenja Ostwald is a certified health coach, not a medical provider. Menus are not medical or dietary treatment advice.</span>
 <span style="display: flex; flex-wrap: wrap; gap: 8px 20px"><a href="#" style="color: #CFCFCF">Privacy Policy</a><a href="#" style="color: #CFCFCF">Terms of Service</a><a href="#pricing" style="color: #CFCFCF">Cancellation Policy</a></span>
 </div>
